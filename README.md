@@ -4,7 +4,7 @@ A solver for the famous lights out game using DFS on incomplete graphs
 Although there exists a well-known solution to this game using linear algebra, I created this solver to practice working with
 graph algorithms such as Depth first search and their variations. My approach adds a couple of layers of complexity to standard
 DFS since this uses a variation that I call "Constructive DFS" which builds the graph as it searches. The second twist to regular 
-DFS is that the algorithm uses a heuristic to search as opposed to blindly searching through the moves. Below is a more detailed
+DFS is that the algorithm uses a heuristic to search as opposed to blindly searching through the moves. Finally, the algorithm also does iterative deepening. This means that it runs DFS with a limited depth and graually increases the limit on the depth till we reach a solution. Below is a more detailed
 description of each file as well as the game representation.
 
 
